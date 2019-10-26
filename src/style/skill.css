@@ -1,0 +1,93 @@
+.skill-bg{
+    background: #CCCCFF;
+    position: relative;
+}
+.panel-heading span{
+    font-size:18px;
+    margin-left:10px;
+    font-family: '楷书,隶书 ';
+    color:#fff;
+}
+.bg01{
+    background-color: #99CC99;
+    border-color: #99CC99;
+}
+.bg02{
+    background-color: #6699CC;
+    border-color: #6699CC;
+}
+.bg03{
+    background-color: #CC6666;
+    border-color: #CC6666;
+}
+.bg04{
+    background-color: #0099CC;
+    border-color: #0099CC;
+}
+.bg05{
+    background-color:  #FF9966;
+    border-color: #FF9966;
+}
+.bg06{
+    background-color: #006633;
+    border-color: #006633;
+}
+.bg07{
+    background-color: #336666;
+    border-color: #336666;
+}
+.bg08{
+    background-color: #FF6666;
+    border-color: #FF6666;
+}
+.panel-body > p{
+    text-align: center;
+    font-size:15px;
+    font-weight: 600;
+}
+.sm-top .col-md-3{
+    opacity: 0;
+}
+.col-md-3:hover{
+    transform: translateY(-5px);
+    box-shadow: -2px 0 5px -2px rgb(109, 38, 38),2px 0 5px -2px rgb(109, 38, 38);
+}
+.col-md-2:hover .panel{
+    border: 1px solid rgb(109, 38, 38);
+    border-top:2px solid rgb(109, 38, 38);
+}
+
+.skill-box{
+    animation: scalebox 0.5s 0.5s ease forwards;
+}
+.progress .progress-user{
+    -webkit-transition: width 0s ease;
+    -o-transition: width 0s ease;
+    transition: width 0s ease;
+}
+
+@keyframes scalebox {
+0%{
+    opacity: 0;
+    transform: scale(0)
+}
+100%{
+    opacity: 1;
+    transform: scale(1) ;
+    margin-bottom: 5px;
+}
+}
+@media screen and (min-width:992px){
+
+.col-md-3 .panel{
+    margin-bottom:30px;
+}
+}
+@media screen and (max-width:992px) {
+.sm-top{
+    margin-top:20px;
+}
+.xs_shouji{
+    width:100%;
+}
+}

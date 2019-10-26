@@ -1,0 +1,97 @@
+.about-bg{
+    background: #99CCCC;
+    position: relative;
+    text-align: center;
+}
+
+.about-info{
+    width:80%;
+    margin:0 auto;
+    text-align: center;
+    opacity: 0;
+}
+.about-info > div >span{
+    margin-right:5px;
+}
+.about-info > p {
+    font-weight: 600;
+    font-family: '楷体';
+}
+.about-info > p >span{
+    font-weight: 400;
+    font-family: "行书";
+    
+}
+.media-heading{
+    color:#000066;
+    transform: scale(0);
+    
+}
+.media-heading p{
+    margin-top:5px;
+    line-height: 2em;
+    text-indent:2em;
+    font-size:16px;
+}
+@media screen and (min-width:992px){
+.about-img{
+    width:50%;
+    height:100%;
+    display: block;
+    margin:0 auto;
+    margin-bottom: 10px;
+    transform: translate(270%);
+} 
+}
+@media screen and (max-width:992px){
+.about-bg{
+    height:100%;
+}
+.about-img{
+    width:30%;
+    height:100%;
+    margin-bottom: 10px;
+    transform: translate(250%);
+}
+}
+/* 动画部分*/
+.showHead{
+    animation: showHeading 0.8s 0.3s ease forwards;
+}
+@keyframes showHeading {
+    0%{
+        transform: scale(1.5);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.showImg{
+    animation: showImging 0.8s 0.5s ease forwards;
+}
+@keyframes showImging{
+    0%{
+        transform: translateX(250%) rotate(360deg);
+        
+    }
+    100%{
+        transform: translateX(0%) rotate(0deg);
+    }
+}
+.showInfo{
+    animation: showInfoing 0.5s 1.3s ease forwards;
+}
+@keyframes showInfoing{
+    0%{
+       transform: scale(0);
+       opacity: 0;
+        
+    }
+    100%{
+        transform:scale(1);
+        opacity: 1;
+    }
+}

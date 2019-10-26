@@ -1,0 +1,153 @@
+.contact-bg{
+    background: #8ae7c8;
+    position: relative;
+    text-align: center;
+}
+.contact_box p {
+  font-size:22px;
+  font-weight:500; 
+  color:#340b69;
+  /* text-shadow:  0px -1px 1px #35668f; */
+ 
+}
+.contact_box{
+  position:relative;
+   opacity: 0;
+}
+.contact_box img:nth-child(1){
+  position: absolute;
+  top:-10%;
+  right:30%;
+}
+.contact_box img:nth-child(2){
+  position: absolute;
+  bottom:-10%;
+  left:30%;
+}
+.contact_ul{
+  display: flex;
+  list-style:none;
+  width:50%;
+  margin:0 auto;
+  padding-top:20px;
+  justify-content: space-around;
+  opacity: 0;
+}
+.contact_ul li{
+  width:20%;
+  position: relative;
+}
+.contact_ul li a{
+  font-size:25px;
+  text-decoration: none;
+  color:#0b1949;
+}
+.contact_ul li a:hover{
+  color:#903434;
+}
+.contact_ul li div{
+  position: absolute;
+  width:200px;
+  height:200px;
+  background: #fff;
+}
+.contact_ul li div img{
+  width:100%;
+  height:100%;
+}
+.contact_footer{
+  align-self: flex-end;
+  width:100%;
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  background: rgb(228, 153, 153);
+  
+}
+.contact_footer span{
+  font-size:14px;
+  margin-right:10px; 
+  color:rgb(60, 17, 85); 
+}
+.contact_box_animation{
+
+  animation: downbox 1s ease 0.5s forwards;
+}
+.contact_ul_animation{
+   animation: upul 1s ease 0.5s forwards;
+}
+.contact_ul_li{
+  animation:  ul_li 0.5s ease 0s ;
+}
+@keyframes downbox {
+  0%{
+      transform: translateY(-100%) scale(0);
+      opacity: 0;
+  }
+  100%{
+      transform:translateY(0) scale(1);
+      opacity:1;
+  }
+}
+@keyframes upul {
+  0%{
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0%) ;
+    opacity: 1;
+  }
+}
+@keyframes ul_li {
+  0%{
+    transform: scale(0);
+    opacity: 0;
+  }
+  80%{
+      transform: scale(1.2) ;
+       opacity: 0.8;
+  }
+  100%{
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@media screen and (min-width:992px) {
+
+}
+@media screen and (max-width:768px){
+.contact_box img:nth-child(1){
+  position: absolute;
+  top:-10%;
+  right:-5%;
+}
+.contact_box img:nth-child(2){
+  position: absolute;
+  bottom:-10%;
+  left:-5%;
+}
+.contact_ul{
+ padding:10px 0px 0px 0px;
+  width:100%;
+}
+.contact_footer span{
+  display: inline-block;
+  font-size:12px;
+}
+.contact_ul li div{
+  position: absolute;
+  width:100px;
+  height:100px;
+  background: #fff;
+}
+.contact_ul li div p{
+  width:100px;
+  word-wrap: break-word;
+  padding:0 2px;
+}
+.contact_ul li div img{
+  width:100%;
+  height:100%;
+}
+}

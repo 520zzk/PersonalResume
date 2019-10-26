@@ -1,0 +1,400 @@
+.adolesce-bg{
+    background: #CCFFCC;
+    position: relative;
+}
+/* pc  */
+.adolesce-box-01 > p{
+    font-family: "楷体";
+    text-indent:2em;
+    font-weight: 600;
+}
+.line{
+    background: rgb(114, 18, 18);
+    color:rgb(114, 18, 18);
+}
+@media screen and (min-width:992px){
+.adolesce-about{
+    height:400px;
+    background: #FFFFCC;
+    overflow: hidden;
+    border-radius:5px;
+} 
+.adolesce-box{
+    width:2150px;
+    height:400px;
+    position:relative;
+    left:200px;
+    transition: left 0.5s;
+}
+.abolesce-box-init{
+    height:400px;
+    position:relative;
+    float:left; 
+    display: flex;
+    align-items: center;
+}
+.line{
+    width:100%;
+    height:3px;
+}
+.adolesce-box-01{
+    width:800px;
+    opacity: 0;
+}
+.adolesce-box-01 > img{
+    width:400px;
+    height:200px;
+    margin-left:150px;  
+}
+.adolesce-box-01 > p {
+    position:absolute;
+    bottom: 4%;
+    width:60%;
+    left:20%;
+} 
+.box01{
+    animation: up 0.5s 0.8s ease forwards;
+}
+@keyframes up {
+    0%{
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.adolesce-box-01 .line{
+    width:25%;
+    position: absolute;
+    right:0;
+}
+.adolesce-box-01 .line>span{
+    position: relative;
+    top:-5px;
+    left:-6px;
+}
+.adolesce-box-02,.adolesce-box-03{
+    width:450px;
+}
+.adolesce-box-02 .line,.adolesce-box-03 .line{
+   width:0%;
+}
+.adolesce-box-02 .line>span ,.adolesce-box-03 .line>span{
+    opacity: 0;
+    position: relative;
+    top:-5px;
+    left:20px;
+}
+.adolesce-box-02 .box-02,.adolesce-box-03 .box-03{
+    width:100%;
+    position:absolute;
+    margin-left:20px;
+    color:#993366;
+}
+.adolesce-box-02 .box-02 .line-v{
+    width:3px;
+    height:0;
+    background: rgb(114, 18, 18);
+    position: absolute;
+    top:86px;
+    left:6px;  
+ }
+.adolesce-box-02 .box-02 h4{
+    opacity: 0;
+    padding-left:30px;
+    position:relative;
+    top:94px;
+} 
+.adolesce-box-02 .box-02 h4 > span{
+    position: absolute;
+    left:0px;
+}
+.adolesce-box-02 .box-02 p{
+    opacity:0;
+    padding-left:30px;
+    font-family: "楷体";
+    font-weight: 600;
+    margin-top:100px;
+}
+.adolesce-box-03 .box-03{
+    height: 200px;
+}
+.adolesce-box-03 .box-03 .line-v{
+    width:3px;
+    height:0px;
+    background: rgb(114, 18, 18);
+    position: absolute;
+    bottom:106px;
+    left:6px;  
+ }
+.adolesce-box-03 .box-03 h4{
+    opacity: 0;
+    position: absolute;
+    padding-left:30px;
+    top:-30px;
+
+} 
+.adolesce-box-03 .box-03 h4 > span{
+    position: absolute;
+    left:0px;
+}
+.adolesce-box-03 .box-03 p{
+    opacity: 0;
+    position: absolute;
+    top:10px;
+    width:100%;
+    padding-left:30px;
+    font-family: "楷体";
+    font-weight: 600;
+}
+.down .line{
+    animation: line 0.8s ease forwards;
+}
+.down .line >span{
+    animation: disnone 0.1s 0.8s ease forwards;
+}
+.down .line-v {
+    animation: linev 0.8s 0.9s ease forwards;
+}
+.down .box-02 > h4 ,.down .box-02 >p{
+    animation: downText 0.5s 1.7s ease forwards;
+}
+.up .line{
+    animation: line 0.8s ease forwards;
+}
+.up .line >span{
+    animation: disnone 0.1s 0.8s ease forwards;
+}
+.up .line-v {
+    animation: linev 0.8s 0.9s ease forwards;
+}
+.up .box-03 > h4 ,.up .box-03 > p{
+    animation: upText 0.5s 1.7s ease forwards;
+}
+@keyframes upText {
+    0%{
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes downText {
+    0%{
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes disnone {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes line {
+    0%{
+        width:0%;
+    }
+    100%{
+        width:100%;
+    }
+}
+@keyframes linev {
+    0%{
+        height:0px;
+    }
+    100%{
+        height: 200px;
+    }
+}
+
+
+}
+@media screen and (max-width:992px) {
+.adolesce-bg{
+    height:100%;
+}
+.adolesce-about{
+    width:90%;
+    background: #FFFFCC;
+    overflow: hidden;
+    border-radius:5px;
+    margin:0 auto;
+    position: relative;
+    top:10px;
+   opacity:0;
+}
+.adolesce-box-01{
+  margin-top:20px;
+  text-align: center;
+   opacity: 0;
+}
+.adolesce-box-01 > img {
+  width:300px;
+  height:150px;
+}
+.adolesce-box-01 > p {
+  width:70%;
+  height:120px;
+  margin:0 auto;
+  margin-top:20px;
+  text-indent: 2em;
+}
+.adolesce-box-01 .line{
+  width:3px;
+  position: relative;
+  left:10%;
+}
+.adolesce-box-01 .line >span{
+  width:30px;
+  height:30px;
+  font-size:25px;
+  position: relative;
+  left:-13px;
+  top:-9px;
+}
+.adolesce-box-02,.adolesce-box-03 {
+  width:80%;
+  margin:0 auto;
+  height:150px;
+  position: relative;
+  left:30px;
+  margin-bottom:10px;
+}
+.adolesce-box-02 .line,.adolesce-box-03 .line{
+   transform: scale(0);
+}
+.box-02 > h4 ,.box-03 > h4{
+  margin-left:15px;
+  font-weight:800;
+  opacity: 0;
+}
+.box-02 > p ,.box-03 > p{
+  margin-left:15px;
+  font-family: "行楷";
+  font-size:17px;
+  opacity: 0;
+}
+.line-box .line-01{
+    width:3px;
+    background: rgb(114, 18, 18);
+    height:165px;
+    position: absolute;
+    top:-1px;
+    left:-31px;
+    opacity: 0;
+}
+.line-box .line-02{
+    height:3px;
+    background: rgb(114,18,18);
+    width:30px;
+    position: absolute;
+    top:75px;
+    left:-30px;
+    opacity: 0;
+}
+.aboutAnimation{
+    animation: aboutHeight 0.8s 0.5s ease forwards;
+} 
+.box01{
+    animation: upText 0.5s 1.3s ease forwards;
+}
+@keyframes upText {
+    0%{
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes aboutHeight {
+    0%{
+        height:0%;
+        opacity: 0;
+    }
+    100%{
+        height:100%;
+        opacity: 1;
+    }
+}
+.NoPc .line-box .line-01{
+    animation: line01 0.8s 1.8s ease forwards;
+}
+.NoPc .line-box .line-02{
+    animation: line02 0.8s 2.6s ease forwards;
+}
+.NoPc .line{
+     animation: itembox 0.8s 3.4s ease forwards;
+}
+.NoPc .box-02>h4 ,.NoPc .box-03 > h4, .NoPc .box-03 > p,.NoPc .box-02 >p{
+    animation: itemcontent 0.8s 3.4s ease forwards;
+}
+.NoPc{
+    border:1px solid rgba(114, 18, 18,0);
+    box-shadow: 1px 2px 2px rgb(114, 18, 18,0);
+    animation: itemborder 0.1s 4.2s ease forwards;
+}
+
+@keyframes line02 {
+    0%{
+        width:0px;
+        opacity: 0;
+    }
+    100%{
+        width:30px;
+        opacity: 1;
+    }
+}
+@keyframes line01 {
+    0%{
+        height:0px;
+        opacity: 0;
+    }
+    100%{
+        height: 165px;
+        opacity: 1;
+    }
+}
+@keyframes itembox {
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes itemcontent {
+    0%{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+@keyframes itemborder {
+    0%{
+       
+    }
+    100%{
+        border:1px solid rgb(114, 18, 18);
+        box-shadow: 1px 2px 2px rgb(114, 18, 18);
+    }
+}
+
+}

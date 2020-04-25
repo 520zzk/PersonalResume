@@ -10,4 +10,4 @@ npm run serve   ---运行查看
 
 网站采用vue-cli 构建，分为自我介绍、成长经历、技能掌握、展示板、联系方式五大块，模块化搭建，便于维护与管理。
 
-在线可通过 http://www.zhzhk.cn 访问
+在线可通过 http://www.zhzhk.cn 访问   PC端访问更佳

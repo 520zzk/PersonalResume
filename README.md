@@ -1,5 +1,6 @@
-# 项目名称 ：myresume
-
+<<<<<<< HEAD
+# PersonalResume
+个人简历存放
 ## 项目安装资源
 ```
 npm install
@@ -22,3 +23,7 @@ npm run build
 
 # https://www.github.com/520zzk
    个人github的社交地址
+=======
+
+#### 在线查看 http://www.zhzhk.cn 
+>>>>>>> 9549adbca0cc1582cec19a5c436ec61502d71a61

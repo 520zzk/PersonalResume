@@ -15,7 +15,7 @@ let router=new VueRouter({
     linkActiveClass:'li-active',  //路由选中时，样式
     routes:[      
         {
-            path: '/',  
+            path: '/myresume',  
             name:'about',  
             meta:{    //用来配置自己需要的信息，$route.meta 获取信息 
                 index:0,

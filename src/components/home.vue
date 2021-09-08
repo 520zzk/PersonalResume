@@ -13,7 +13,7 @@
                         </span>
                     </div> 
                     <ul class=" nav navbar-nav pull-float sm-hidden cla sm-ul" :class="{'sm-show':navStatus}" @click="showNav" >
-                        <router-link to="/" tag="li" exact >
+                        <router-link to="/myresume" tag="li" exact >
                                 <a  href="javascript:;">自我介绍</a>
                             </router-link>
                         <router-link to="/adolesce" tag="li" >

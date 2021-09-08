@@ -29,7 +29,7 @@
       </div>
       <footer class="contact_footer">
           <span class="iconfont icon-banquan">Copyright 2019 zzk All rights Reserved</span>
-          <span class="iconfont icon-icp"><a href="http://www.beian.miit.gov.cn/" target="_blank">鄂ICP备19015487号</a> </span>
+          <span class="iconfont icon-icp"><a href="http://beian.miit.gov.cn/" target="_blank">鄂ICP备19015487号</a> </span>
           <span class="iconfont icon-tishi">如有版权等问题，请及时联系我</span>
       </footer>
     </div>

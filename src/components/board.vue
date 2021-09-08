@@ -3,7 +3,7 @@
 <template>
     <div  class="board-bg"> <!--展示板-->
       <div class="container board_box">
-         <div class="row_box" ref="row_box1" @mouseenter="enter" @mouseleave="leave">
+         <div class="row_box" ref="row_box1">
              <div class="thumbnail">
                 <img src="../assets/img/ss.jpg" alt="...">
                 <div class="caption">
@@ -15,19 +15,19 @@
                 </div>
             </div>
          </div>
-         <div class="row_box" ref="row_box2" @mouseenter="enter" @mouseleave="leave">
+         <div class="row_box" ref="row_box2">
              <div class="thumbnail">
-                <img src="../assets/img/Renderings.jpg" alt="...">
+                <img src="../assets/img/network.jpg" alt="...">
                 <div class="caption">
-                    <h5 class="text-danger">图片拖拽与位置交换</h5>
-                    <p class="text-muted">原生js展示图片的拖拽与交换，利用js判断最近实现交换</p>
-                    <p> <a href="https://520zzk.github.io/drag_pic/move_swap.html" target="_blank" class="btn btn-primary" role="button">在线展示</a> 
-                        <a href="https://github.com/520zzk/drag_pic" target="_blank" class="btn btn-default" role="button">项目地址</a>
+                    <h5 class="text-danger">大屏数据展示</h5>
+                    <p class="text-muted">利用百度echarts和datav 框架搭建的大屏数据展示</p>
+                    <!-- <p> <a href="https://520zzk.github.io/drag_pic/move_swap.html" target="_blank" class="btn btn-primary" role="button">在线展示</a>  -->
+                        <a href="https://github.com/520zzk/cug_cockpit/tree/main/electronic-file_%E6%94%B9%E8%89%AF" target="_blank" class="btn btn-default" role="button">项目地址</a>
                     </p>
                 </div>
             </div>
          </div>
-         <div class="row_box" ref="row_box3" @mouseenter="enter" @mouseleave="leave">
+         <div class="row_box" ref="row_box3">
              <div class="thumbnail">
                 <img src="../assets/img/myresume.jpg" alt="...">
                 <div class="caption">
@@ -37,7 +37,7 @@
                     </div>
             </div>
          </div>
-         <div class="row_box" ref="row_box4" @mouseenter="enter" @mouseleave="leave">
+         <div class="row_box" ref="row_box4">
              <div class="thumbnail">
                 <img src="../assets/img/WeChat.jpg" alt="...">
                 <div class="caption">
@@ -47,7 +47,7 @@
                 </div>
             </div>
          </div>
-         <div class="row_box" ref="row_box5" @mouseenter="enter" @mouseleave="leave">
+         <div class="row_box" ref="row_box5">
              <div class="thumbnail">
                 <img src="../assets/img/test_system.jpg" alt="">
                 <div class="caption">
@@ -82,7 +82,7 @@ export default {
     },
     mounted(){
         this.getElement_info();
-        this.time(); //开启循环
+        // this.time(); //开启循环
     },
     methods:{
         Carousel(t){    //循环动画执行函数

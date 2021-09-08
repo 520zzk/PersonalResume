@@ -7,7 +7,7 @@
          <div class="adolesce-box" :style="{left:moveboxleft + 'px',width:widthAll + 'px'}" ref="movebox">
              <div class="abolesce-box-init adolesce-box-01" :class="{box01 : showUp == true}"  ref="box01">
                <img src="../assets/img/Myhistory.png" alt="">
-                <p>在2017年的夏天，我来到了武汉职业技术学院，在这里我是第一次了解到了我的专业【计算机网络技术】，我专业的发展方向就是网络前端方向，
+                <p>在2017年的夏天，我来到了武汉职业技术学院，在这里我是第一次了解到了我的专业【计算机网络技术】，我专业的发展方向就是web前端方向，
                     第一次接触前端的起点，便是从这里开始的
                 </p>
                 <div class="line"><span class="glyphicon glyphicon-record"></span></div>
@@ -48,7 +48,7 @@
                          <div class="line-02"></div>
                      </div>
                      <h4><span class="glyphicon glyphicon-unchecked hidden-xs hidden-sm" ></span> 大一下学期</h4>
-                     <p>原来我们还有JQ库、PHP做后端，Linux服务器等支撑</p>
+                     <p>原来我们还有JQ库、PHP做后端，Linux服务器,mySQL数据库等支撑</p>
                  </div>
              </div>
 
@@ -60,8 +60,8 @@
                          <div class="line-01"></div>
                          <div class="line-02"></div>
                      </div>
-                     <h4><span class="glyphicon glyphicon-unchecked hidden-xs hidden-sm"></span> 大二开始了</h4>
-                     <p>加入了巨塔工作室，一群志同道合的的人聚在了一起</p>
+                     <h4><span class="glyphicon glyphicon-unchecked hidden-xs hidden-sm"></span> 大二上学期</h4>
+                     <p>加入了巨塔工作室，一群志同道合的的人聚在了一起，Bootstrap响应式开发，vue框架的学习，观看妙味课堂、腾讯课堂等学习视频，工作室日常打卡</p>
                  </div>
              </div>
 
@@ -73,8 +73,8 @@
                          <div class="line-01"></div>
                          <div class="line-02"></div>
                      </div>
-                     <h4><span class="glyphicon glyphicon-unchecked hidden-xs hidden-sm" ></span> 大二上学期</h4>
-                     <p>Bootstrap响应式开发，vue框架的学习，观看妙味课堂、腾讯课堂等学习视频，工作室日常打卡</p>
+                     <h4><span class="glyphicon glyphicon-unchecked hidden-xs hidden-sm" ></span> 大二下学期</h4>
+                     <p>微信小程序的了解，vue-cli的学习、个人简历网站的构思与初步搭建，前端课程的持续性学习</p>
                  </div>
              </div>
              <div class="abolesce-box-init adolesce-box-03" :class="{ up: 6 <= compare, NoPc : showUp == true }" ref="box07" >
@@ -85,8 +85,8 @@
                          <div class="line-01"></div>
                          <div class="line-02"></div>
                      </div>
-                     <h4><span class="glyphicon glyphicon-unchecked hidden-xs hidden-sm"></span> 大二下学期</h4>
-                     <p>微信小程序的了解，vue-cli的学习、个人简历网站的构思与初步搭建，前端课程的持续性学习</p>
+                     <h4><span class="glyphicon glyphicon-unchecked hidden-xs hidden-sm"></span> 大三就这么来了</h4>
+                     <p>课程结余，个人简历完善。开展实习工作的查找</p>
                  </div>
              </div>
             <div class="abolesce-box-init adolesce-box-02 " :class="{ down: 7 <= compare , NoPc : showUp == true }"  ref="box08">
@@ -97,8 +97,20 @@
                          <div class="line-01"></div>
                          <div class="line-02"></div>
                      </div>
-                     <h4><span class="glyphicon glyphicon-unchecked hidden-xs hidden-sm" ></span> 大三就这么来了</h4>
-                     <p>课程结余，个人简历完善。开展实习工作的查找，欲知后事如何，且见面一谈</p>
+                     <h4><span class="glyphicon glyphicon-unchecked hidden-xs hidden-sm" ></span> 2020-06</h4>
+                     <p>快客云科技，开启前端职场路，多人协作齐开发</p>
+                 </div>
+             </div>
+              <div class="abolesce-box-init adolesce-box-03" :class="{ up: 8 <= compare, NoPc : showUp == true }" ref="box09" >
+                 <div class="line"><span class="glyphicon glyphicon-fire"></span></div>
+                 <div class="box-03">
+                     <div class="line-v"></div>
+                     <div class="visible-xs visible-sm line-box"> 
+                         <div class="line-01"></div>
+                         <div class="line-02"></div>
+                     </div>
+                     <h4><span class="glyphicon glyphicon-unchecked hidden-xs hidden-sm"></span> 2021-09</h4>
+                     <p>欲知后事如何，且见面一谈</p>
                  </div>
              </div>
          </div>

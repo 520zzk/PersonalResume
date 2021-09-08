@@ -25,10 +25,8 @@ npm run build
 ### 在线预览：http://www.zhzhk.cn/myresume
     该项目我已经放置在云服务器上了，所以在观看没有问题，PC端效果更佳
 
-### https://www.github.com/520zzk
-   个人github的社交地址
    记得点点关注不迷路
-   
+
 ======= end
 
 

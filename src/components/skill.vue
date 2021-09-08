@@ -100,7 +100,7 @@
                 <div class="col-md-3" :class="{'skill-box':showBxo = true}">
                     <div class="panel">
                        <div class="panel-heading bg08">
-                           <img src="@/assets/img/git.png" alt="">  <span>Git版本控制</span>
+                           <img src="@/assets/img/git.png" alt="">  <span>Git协同工作</span>
                        </div> 
                         <div class="panel-body">
                             <p>{{widthNew[7]}}%</p>

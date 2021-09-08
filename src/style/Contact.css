@@ -47,6 +47,7 @@
 }
 .contact_ul li div{
   position: absolute;
+  bottom:35px;
   width:200px;
   height:200px;
   background: #fff;
@@ -137,6 +138,7 @@
 }
 .contact_ul li div{
   position: absolute;
+  bottom:35px;
   width:100px;
   height:100px;
   background: #fff;
